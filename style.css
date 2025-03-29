@@ -1,0 +1,586 @@
+
+body {
+    background-color: rgba(246, 240, 240, 0.859);
+}
+
+.logo img {
+    width: 7vw;
+}
+
+nav {
+    padding: 10px 40px;
+    background-color: orange;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    /* Ensures vertical alignment */
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* Adds spacing between logo and menu */
+}
+
+.left ul {
+    display: flex;
+    list-style: none;
+    /* Removes default bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+.left ul li {
+    margin: 0 15px;
+    /* Adds spacing between menu items */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+
+.left ul li:hover {
+    color: red;
+
+}
+
+
+
+.semibolder {
+    font-weight: bolder;
+}
+
+.SearchBox {
+    width: 400px;
+    height: 30px;
+    padding: 0 10px;
+    margin-left: 30px;
+}
+
+
+
+.Profile img {
+    width: 30px;
+    /* Adjust the width as needed */
+    height: 30px;
+    /* Maintain aspect ratio */
+    border-radius: 50%;
+    /* Optional: Makes it circular */
+    object-fit: cover;
+    /* Ensures the image fits well */
+    margin: 0 60px;
+}
+
+.Wishlist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px
+
+}
+
+
+
+.Wishlist img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    display: block;
+
+}
+
+#Wishlist {
+    margin-top: px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.ShoppingBag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.ShoppingBag img {
+    width: 50px;
+    height: 50px;
+    margin: 0 50px;
+    display: block;
+}
+
+#Bagtext {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.Profile {
+    display: flex;
+    flex-direction: column;
+    /* Stacks items vertically */
+    align-items: center;
+    /* Centers items horizontally */
+    text-align: center;
+}
+
+.Profile img {
+    width: 40px;
+    /* Adjust size as needed */
+    height: 40px;
+    display: block;
+}
+
+#Profiletext {
+    margin-top: 5px;
+    /* Adds spacing between image and text */
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.sales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto; /* Centers the div */
+    max-width: 90%; /* Ensures it doesn’t stretch too much */
+}
+
+.sales img {
+    width: 100%; /* Keeps full width */
+    max-width: 700px; /* Limits the max width */
+    height: 150px; /* Reduces the height */
+    object-fit: cover; /* Ensures the image fits without distortion */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    
+}
+
+ 
+
+
+
+.Pictures {
+    display: flex; /* Enables horizontal layout */
+    justify-content: center; /* Centers all images horizontally */
+    align-items: center; /* Aligns them vertically */
+    gap: 20px; /* Adds spacing between images */
+    flex-wrap: wrap; /* Prevents images from stacking */
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.slideshow-container {
+    display: flex; /* Ensures images align in one row */
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Aligns items vertically */
+    gap: 20px; /* Adds spacing between items */
+    flex-wrap: wrap; /* Allows wrapping if needed */
+
+}
+
+
+.manFashion {
+    width: 300px; /* Fixed width */
+    height: 400px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.manFashion img {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px; /* Optional rounded corners */
+}
+
+.WomanFashion {
+    display: inline-block;
+    height: 400px;
+    width: 300px;
+    
+}
+
+.Sunglasses {
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.Sunglasses img {
+    width: 300px;
+    max-width: 300px;
+    height: auto;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+
+
+
+
+.sportswear {
+    display: flex;
+    width: 300px; /* Fixed width like other images */
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.summerWear {
+    flex: 1; /* Makes it take the remaining space */
+    height: 300px;
+    display: flex; /* Ensures it behaves properly inside flex container */
+    justify-content: center;
+    align-items: center;
+    max-width: 900px; /* Approx. width of 3 images (3x300px) */
+}
+
+.summerWear img {
+    width: 100%; /* Ensures it stretches to take full space */
+    height: auto;
+    border-radius: 10px; /* Optional for styling */
+}
+
+.Otherwearables{
+    display: inline;
+    width: 100vh;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    color: purple;
+    background-color: orange;
+}
+
+.pictures2 {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    width: 100vh;
+    margin-top: 50px;
+    gap: 10px;
+   
+}
+
+.Footwears{
+    width: 200px;
+    height: 300px;
+    
+    outline: 1px solid black;
+}
+
+.Watches{
+    width: 200px;
+    height: 300px;
+    outline: 1px solid black;
+}
+
+.accessories{
+    width: 200px;
+    height: 300px;
+    outline: 1px solid black;
+}
+.Makeup{
+    width: 200px;
+    height: 300px;
+    outline: 1px solid black;
+}
+
+.purse{
+    width: 200px;
+    height: 300px;
+    outline: 1px solid black;
+}
+
+.brands {
+    text-align: center;
+    margin-top: 200px; /* Space between wearables and brands */
+   
+    
+}
+
+.AvailableBrands {
+    font-size: 40px;
+    font-weight: bold;
+   
+    font-family: "Poppins", sans-serif;
+    color: rgb(74, 25, 25);
+    background-color: lightgreen;
+    display: inline-block;
+    padding: 10px 20px; /* Adds some spacing around the text */
+    border-radius: 10px; /* Optional: Adds rounded corners for a better look */
+}
+
+
+.brandlist{
+    display: flex;
+    flex-direction: row;
+}
+
+.brandlist :hover{
+    cursor: pointer;
+}
+
+.brandspics{
+    display: flex;
+    width: auto;
+    height: 300px;
+    margin: 0 50px;
+}
+
+.sportsbrands{
+    display:flex;
+    width: 500px;
+    height: 300px;
+    
+}
+
+.electronics p{
+    display: inline-block;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    background-color: purple;
+    color: rgb(237, 198, 123);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.electronicspics {
+    display: flex;          /* Enables flexbox */
+    flex-direction: column; /* Stacks image and text vertically */
+   justify-content: center;
+   align-items: center;
+    margin-top: 30px;       /* Adds spacing from the section above */
+    margin-bottom: 20px;
+}
+
+.electronicspics img {
+    width: 400px;           /* Adjust image size */
+    height: 400px;           /* Maintain aspect ratio */
+    border-radius: 10px;    /* Optional: Adds rounded corners */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Adds shadow effect */
+}
+
+.Iphone {
+    font-size: 18px;        /* Adjusts font size */
+    font-weight: bold;      /* Makes text bold */
+    margin-top: 10px;       /* Adds spacing between image and text */
+    color: #333;            /* Dark gray color */
+    font-family: "Poppins", sans-serif;
+    display: grid;
+   
+}
+
+.smartwatch{
+    margin-top: 100px;
+}
+
+.firebolt{
+    font-size: 30px;
+    color: rgb(78, 60, 60);
+    font-weight: 700;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Make sure images don’t overflow */
+img {
+    max-width: 100%; /* Ensures images scale down */
+    height: auto;    /* Maintains aspect ratio */
+}
+
+/* 🌟 NAVBAR RESPONSIVENESS */
+@media (max-width: 992px) {
+    nav {
+        flex-direction: column; /* Stack menu vertically */
+        padding: 10px;
+        text-align: center;
+    }
+
+    .left, .right {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left ul {
+        flex-direction: column; /* Stack menu items */
+        gap: 10px;
+    }
+
+    .SearchBox {
+        width: 80%; /* Reduce search box width */
+    }
+}
+
+/* 🌟 MAKE SALES IMAGE RESPONSIVE */
+.sales img {
+    width: 90%;  /* Adjust width for smaller screens */
+    max-width: 700px; 
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* 🌟 RESPONSIVE GRID FOR PRODUCTS */
+@media (max-width: 768px) {
+    .slideshow-container {
+        flex-direction: column; /* Stack images vertically */
+        gap: 10px;
+    }
+
+    .Pictures {
+        margin: 0 20px; /* Reduce margins */
+    }
+
+    .pictures2 {
+        flex-wrap: wrap; /* Allows images to wrap on small screens */
+        justify-content: center;
+    }
+}
+
+/* 🌟 RESPONSIVE ELECTRONICS SECTION */
+@media (max-width: 768px) {
+    .electronicspics {
+        flex-direction: column; /* Stack items */
+        align-items: center;
+    }
+
+    .electronicspics img {
+        width: 80%; /* Scale images */
+    }
+
+    .Iphone, .firebolt {
+        font-size: 16px; /* Reduce text size */
+        text-align: center;
+    }
+}
+
+/* 🌟 BRANDS SECTION */
+@media (max-width: 768px) {
+    .brandlist {
+        flex-direction: column; /* Stack brand images */
+        align-items: center;
+    }
+
+    .brandspics, .sportsbrands, .phonebrands {
+        width: 80%; /* Scale images */
+    }
+}
+
+/* 🌟 FOOTER & OTHER ELEMENTS */
+@media (max-width: 768px) {
+    .brands, .electronics {
+        text-align: center;
+    }
+
+    .AvailableBrands {
+        font-size: 30px; /* Reduce font size */
+        padding: 10px;
+    }
+}
+.Otheritems {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    max-width: 60%;
+}
+
+.Otheritems :hover{
+    cursor: pointer;
+
+}
+
+
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    background-color: rgb(227, 179, 187);
+}
+
+.item img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
+.item-label {
+    margin-top: 10px; /* Adds space between image and label */
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    font-family: "Poppins", sans-serif;
+}
+
+.chappal{
+    display: grid
+
+}
+
+.trending{
+  
+    font-size: 50px;
+    background-color: rgb(205, 179, 127);
+    display: inline-block;
+    text-align: center;
+    margin-left: 500px;
+    font-family: "Poppins", sans-serif;
+    padding: 20px;
+}
+
+.aboutus{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin:  25px 25px;
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+}
